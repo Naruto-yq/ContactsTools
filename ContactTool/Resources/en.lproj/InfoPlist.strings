@@ -1,0 +1,3 @@
+"CFBundleDisplayName" = "Contact Toolbox";
+"CFBundleName" = "Contact Toolbox";
+"NSContactsUsageDescription" = "Used to select device contacts and export them as VCF, Excel, or CSV files.";

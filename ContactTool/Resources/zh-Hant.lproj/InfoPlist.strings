@@ -1,0 +1,3 @@
+"CFBundleDisplayName" = "联系人工具箱";
+"CFBundleName" = "联系人工具箱";
+"NSContactsUsageDescription" = "用于选择手机通讯录联系人，并导出为 VCF、Excel 或 CSV 文件。";

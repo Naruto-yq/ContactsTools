@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="联系人工具箱 隐私政策 / Privacy Policy — Contact Toolbox" />
+  <title>隐私政策 · Privacy Policy — 联系人工具箱</title>
+  <style>
+    :root {
+      color-scheme: light dark;
+      --bg: #f7faf9;
+      --fg: #15201f;
+      --muted: #5a6966;
+      --border: #dce7e4;
+      --accent: #108479;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #101817;
+        --fg: #e8efed;
+        --muted: #9cadab;
+        --border: #263735;
+        --accent: #5bd0c2;
+      }
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+      font-size: 16px;
+      line-height: 1.65;
+      color: var(--fg);
+      background: var(--bg);
+    }
+    .wrap {
+      max-width: 42rem;
+      margin: 0 auto;
+      padding: 2rem 1.25rem 4rem;
+    }
+    header {
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 1.5rem;
+      margin-bottom: 2rem;
+    }
+    h1 {
+      font-size: 1.75rem;
+      font-weight: 700;
+      margin: 0 0 0.5rem;
+      letter-spacing: -0.02em;
+    }
+    .meta {
+      font-size: 0.875rem;
+      color: var(--muted);
+    }
+    nav.lang {
+      margin-top: 1rem;
+      font-size: 0.9rem;
+    }
+    nav.lang a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+    nav.lang a:hover { text-decoration: underline; }
+    h2 {
+      font-size: 1.2rem;
+      margin: 2rem 0 0.75rem;
+      padding-top: 0.5rem;
+      border-top: 1px solid var(--border);
+    }
+    section:first-of-type h2 { border-top: none; padding-top: 0; margin-top: 0; }
+    h3 { font-size: 1rem; margin: 1.25rem 0 0.5rem; }
+    p, ul { margin: 0 0 1rem; }
+    ul { padding-left: 1.25rem; }
+    li { margin-bottom: 0.35rem; }
+    a { color: var(--accent); }
+    code { font-size: 0.9em; padding: 0.1em 0.35em; border-radius: 4px; background: var(--border); }
+    footer {
+      margin-top: 3rem;
+      padding-top: 1.5rem;
+      border-top: 1px solid var(--border);
+      font-size: 0.875rem;
+      color: var(--muted);
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <h1>隐私政策 <span style="font-weight:400;color:var(--muted)">/ Privacy Policy</span></h1>
+      <p class="meta">应用名称：联系人工具箱（App Store 显示名）<br />生效日期：2026 年 6 月 2 日</p>
+      <nav class="lang" aria-label="语言跳转">
+        <a href="#zh">中文</a> · <a href="#en">English</a>
+      </nav>
+    </header>
+
+    <!-- ========== 中文 ========== -->
+    <section id="zh" lang="zh-Hans">
+      <h2>1. 概述</h2>
+      <p>
+        本政策说明 iOS 应用 <strong>联系人工具箱</strong>（英文名：<strong>Contact Toolbox</strong>，以下简称「本应用」）如何处理与你相关的信息。
+        本应用用于在 Excel / CSV / VCF 文件与系统通讯录之间进行联系人数据转换，并通过 iOS 系统分享面板导出生成文件。
+        使用本应用即表示你理解并同意本政策；若不同意，请停止使用本应用。
+      </p>
+      <p>
+        请在发布本页面前将下文中的<strong>联系邮箱</strong>与<strong>运营主体名称</strong>替换为你的真实信息。
+      </p>
+
+      <h2>2. 我们处理哪些信息</h2>
+      <h3>2.1 你主动选择或生成的联系人文件</h3>
+      <ul>
+        <li><strong>导入文件</strong>：你从 iOS 系统「文件」App、iCloud Drive 或本机文件位置主动选择的 <code>.xlsx</code>、<code>.csv</code> 或 <code>.vcf</code> 文件。</li>
+        <li><strong>联系人字段</strong>：姓名、手机号、邮箱、公司、地址、备注等用于生成或解析联系人文件的字段。</li>
+        <li><strong>生成文件</strong>：本应用根据你的操作生成的 <code>.vcf</code>、<code>.xlsx</code> 或 <code>.csv</code> 文件。</li>
+      </ul>
+      <p>
+        上述处理用于实现文件解析、字段映射、数据清洗、预览、去重、生成文件与系统分享等核心功能。
+        本应用不会在后台扫描你的文件，也不会读取你未主动选择的文件。
+      </p>
+
+      <h3>2.2 系统通讯录权限</h3>
+      <p>
+        当你使用「通讯录导出」功能时，本应用会请求访问 iOS 系统通讯录。
+        获得授权后，本应用会读取你设备中的联系人姓名、手机号、邮箱、公司、地址等信息，用于让你选择联系人并导出为 VCF、Excel 或 CSV 文件。
+        如果你拒绝授权，该功能将无法使用，但其他不依赖通讯录权限的功能仍可继续使用。
+      </p>
+      <p>你可以随时在 iOS「设置」中撤回或调整通讯录权限。</p>
+
+      <h3>2.3 模板与剪贴板</h3>
+      <p>
+        本应用提供联系人导入模板。若你点击「复制内容」，模板文本会写入系统剪贴板，便于你粘贴到其他 App。
+        除你主动点击复制外，本应用不会读取你的剪贴板内容。
+      </p>
+
+      <h3>2.4 临时文件与本地存储</h3>
+      <p>
+        本应用生成的导出文件会临时写入应用沙盒或系统临时目录，以便通过 iOS 系统分享面板保存到「文件」App 或发送给其他应用。
+        文件是否被长期保存，取决于你在分享面板中的操作。
+      </p>
+
+      <h2>3. 我们如何使用这些信息</h2>
+      <ul>
+        <li>解析你主动选择的联系人文件。</li>
+        <li>自动识别字段并允许你手动调整字段映射。</li>
+        <li>清洗手机号、处理国家码、检测空手机号、重复数据与异常行。</li>
+        <li>生成 VCF、Excel 或 CSV 文件，并通过系统分享面板交给你保存或发送。</li>
+        <li>在你授权后读取系统通讯录，并仅用于你选择联系人与导出文件。</li>
+      </ul>
+
+      <h2>4. 数据共享与第三方服务</h2>
+      <ul>
+        <li>本应用<strong>不主动上传</strong>你的联系人文件或通讯录信息到我们的服务器。</li>
+        <li>本应用目前<strong>不集成</strong>广告 SDK、统计 SDK 或第三方 AI 服务。</li>
+        <li>当你使用 iOS 系统分享面板时，文件会按照你选择的目标 App 或系统位置进行分享、保存或发送；后续处理受目标 App 或服务的隐私政策约束。</li>
+        <li>App Store 的分发、更新与崩溃诊断等系统服务由 Apple 处理，遵循 Apple 的相关条款与隐私政策。</li>
+      </ul>
+
+      <h2>5. 安全与数据保留</h2>
+      <ul>
+        <li>本应用尽量在本机完成联系人数据处理，减少不必要的数据传输。</li>
+        <li>临时导出文件用于完成系统分享；你可以在系统「文件」App 或目标 App 中自行管理已保存或已发送的文件。</li>
+        <li>卸载本应用通常会删除应用沙盒内保存的本地数据与临时文件；已通过分享面板保存到其他位置的文件不受卸载影响。</li>
+      </ul>
+
+      <h2>6. 儿童</h2>
+      <p>
+        本应用不面向 13 岁以下儿童。若你认为我们无意中处理了儿童相关信息，请通过下方邮箱联系我们，我们将尽快评估并删除（如适用）。
+      </p>
+
+      <h2>7. 你的权利与联系我们</h2>
+      <p>
+        你可以通过 iOS「设置」管理通讯录权限，也可以删除你保存或导出的联系人文件。
+        若适用法律赋予你访问、更正、删除个人信息的权利，或你对本政策有疑问，请通过以下方式联系我们：
+      </p>
+      <p><strong>邮箱（请替换）：</strong><a href="mailto:yuqinylj@gmail.com">yuqinylj@gmail.com</a></p>
+      <p><strong>运营主体（请替换）：</strong>（请填写个人姓名或公司全称）</p>
+
+      <h2>8. 政策变更</h2>
+      <p>
+        我们可能适时更新本政策。更新后，我们将在本页面修订「生效日期」；如变更重大，我们还将在应用内或本页面以合理方式提示（如适用）。
+      </p>
+    </section>
+
+    <!-- ========== English ========== -->
+    <section id="en" lang="en">
+      <h2>1. Overview</h2>
+      <p>
+        This Privacy Policy explains how the iOS app <strong>Contact Toolbox</strong> (Chinese display name: <strong>联系人工具箱</strong>, the “App”) processes information related to you.
+        The App converts contact data between Excel, CSV, VCF files, and device contacts, and exports generated files through the iOS system share sheet.
+        By using the App, you agree to this Policy. If you do not agree, please stop using the App.
+      </p>
+      <p>
+        Before publishing this page, replace the <strong>contact email</strong> and <strong>legal entity name</strong> below with your real details.
+      </p>
+
+      <h2>2. Information we process</h2>
+      <h3>2.1 Contact files you select or generate</h3>
+      <ul>
+        <li><strong>Imported files</strong>: <code>.xlsx</code>, <code>.csv</code>, or <code>.vcf</code> files that you actively choose from the iOS Files app, iCloud Drive, or local file locations.</li>
+        <li><strong>Contact fields</strong>: name, phone number, email, company, address, notes, and similar fields used to parse or generate contact files.</li>
+        <li><strong>Generated files</strong>: <code>.vcf</code>, <code>.xlsx</code>, or <code>.csv</code> files generated by the App based on your actions.</li>
+      </ul>
+      <p>
+        This processing is used for core features such as file parsing, field mapping, data cleanup, preview, duplicate detection, file generation, and system sharing.
+        The App does not scan your files in the background and does not read files you have not actively selected.
+      </p>
+
+      <h3>2.2 Contacts permission</h3>
+      <p>
+        When you use the “Contacts Export” feature, the App requests access to iOS Contacts.
+        After permission is granted, the App reads contact names, phone numbers, emails, companies, addresses, and similar fields from your device so that you can select contacts and export them as VCF, Excel, or CSV files.
+        If you deny permission, this feature will not work, while other features that do not require Contacts access remain available.
+      </p>
+      <p>You can revoke or change Contacts permission at any time in iOS Settings.</p>
+
+      <h3>2.3 Templates and clipboard</h3>
+      <p>
+        The App provides a contact import template. If you tap “Copy”, the template text is written to the system clipboard so you can paste it into another app.
+        The App does not read your clipboard unless you explicitly use a feature that requires it; at present, the template feature only writes to the clipboard.
+      </p>
+
+      <h3>2.4 Temporary files and local storage</h3>
+      <p>
+        Generated export files may be temporarily written to the app sandbox or system temporary directory so they can be saved to Files or sent to another app through the iOS share sheet.
+        Whether a file is stored long term depends on the action you choose in the share sheet.
+      </p>
+
+      <h2>3. How we use information</h2>
+      <ul>
+        <li>Parse contact files that you actively select.</li>
+        <li>Detect fields automatically and allow you to adjust field mapping manually.</li>
+        <li>Clean phone numbers, apply country codes, detect empty phone numbers, duplicates, and abnormal rows.</li>
+        <li>Generate VCF, Excel, or CSV files and hand them to you through the system share sheet.</li>
+        <li>Read system contacts after your permission and only for selecting contacts and exporting files.</li>
+      </ul>
+
+      <h2>4. Sharing and third-party services</h2>
+      <ul>
+        <li>The App does <strong>not actively upload</strong> your contact files or device contact information to our servers.</li>
+        <li>The App currently does <strong>not integrate</strong> ad SDKs, analytics SDKs, or third-party AI services.</li>
+        <li>When you use the iOS share sheet, files are shared, saved, or sent according to the destination app or system location you choose. Further processing is governed by that destination’s privacy policy.</li>
+        <li>App Store distribution, updates, diagnostics, and related system services are handled by Apple under Apple’s terms and privacy policy.</li>
+      </ul>
+
+      <h2>5. Security and retention</h2>
+      <ul>
+        <li>The App processes contact data on device where practical to reduce unnecessary data transfer.</li>
+        <li>Temporary export files are used to complete system sharing. You can manage saved or sent files in Files or the destination app.</li>
+        <li>Uninstalling the App typically deletes local data and temporary files inside the app sandbox. Files you have saved elsewhere through the share sheet are not affected by uninstalling.</li>
+      </ul>
+
+      <h2>6. Children</h2>
+      <p>
+        The App is not directed to children under 13. If you believe we have processed a child’s information inadvertently, contact us at the email below and we will review and delete it where appropriate.
+      </p>
+
+      <h2>7. Your rights and contact</h2>
+      <p>
+        You can manage Contacts permission in iOS Settings and delete contact files you have saved or exported.
+        For access, correction, deletion, or questions under applicable law, contact:
+      </p>
+      <p><strong>Email (replace):</strong> <a href="mailto:yuqinylj@gmail.com">yuqinylj@gmail.com</a></p>
+      <p><strong>Entity (replace):</strong> (your legal name or company)</p>
+
+      <h2>8. Changes</h2>
+      <p>
+        We may update this Policy from time to time. We will revise the effective date on this page and, where appropriate, provide additional notice in the App or on this page.
+      </p>
+    </section>
+
+    <footer>
+      <p>联系人工具箱 · 本页面仅供展示隐私政策正文，不构成法律意见；上架前请由你或法律顾问核对与当地法规的一致性。</p>
+      <p>Contact Toolbox · This page is for disclosure purposes only and is not legal advice.</p>
+    </footer>
+  </div>
+</body>
+</html>
